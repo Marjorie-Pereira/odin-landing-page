@@ -27,8 +27,9 @@ ul {
   align-items: center;
 }
 
-li {
+li, .secondary-text {
   font-size: 18px;
+  font-weight: normal;
 }
 
 a {
@@ -55,4 +56,32 @@ a:hover {
   display: flex;
   align-items: center;
   height: 80vh;
+}
+
+.hero-content {
+  padding: 0 6px
+}
+
+.hero-content h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.secondary-text {
+  margin: 12px 0
+}
+
+.hero img {
+  width: 50%;
+  height:  auto
+}
+
+button {
+  background-color: #3882F6;
+  padding: 8px 3em;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-weight: 700;
+  font-size: 18px;
 }
