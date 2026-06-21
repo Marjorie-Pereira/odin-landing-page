@@ -6,9 +6,19 @@
 }
 
 header,
-section,
-footer {
+section {
   padding: 1rem 8rem;
+}
+
+ul,
+.hero,
+.image-container,
+.features,
+.flex-container,
+.quote,
+.call-to-action,
+.action-banner {
+  display: flex;
 }
 
 section {
@@ -17,13 +27,23 @@ section {
 
 header,
 .hero,
+footer,
+button,
+.action-banner {
+  color: #fff;
+}
+
+li, .secondary-text, button, .quote p {
+  font-size: 18px;
+}
+
+header,
+.hero,
 footer {
-  color: white;
   background-color: #1f2937;
 }
 
 ul {
-  display: flex;
   list-style: none;
   gap: 8px;
   align-items: center;
@@ -31,7 +51,6 @@ ul {
 
 li,
 .secondary-text {
-  font-size: 18px;
   font-weight: normal;
 }
 
@@ -56,7 +75,6 @@ a:hover {
 }
 
 .hero {
-  display: flex;
   align-items: center;
 }
 
@@ -81,11 +99,9 @@ a:hover {
 button {
   background-color: #3882f6;
   padding: 8px 3em;
-  color: white;
   border-radius: 8px;
   border: none;
   font-weight: 700;
-  font-size: 18px;
 }
 
 .features h1 {
@@ -96,7 +112,6 @@ button {
 }
 .features .flex-container {
   margin-top: 3rem;
-  display: flex;
   justify-content: space-evenly;
 }
 
@@ -110,7 +125,6 @@ button {
   border-width: 4px;
   border-radius: 8px;
   height: 200px;
-  display: flex;
   overflow: hidden;
   margin-bottom: 10px;
 }
@@ -130,7 +144,6 @@ button {
 }
 
 .quote p {
-  font-size: 18px;
   font-weight: 700;
   text-align: end;
   margin-right: 50px;
@@ -139,15 +152,12 @@ button {
 .features,
 .quote,
 .call-to-action {
-  display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 .action-banner {
-  display: flex;
   background-color: #3882f6;
-  color: white;
   border-radius: 8px;
   align-items: center;
   padding: 50px;
