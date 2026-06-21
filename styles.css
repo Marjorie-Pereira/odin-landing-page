@@ -163,3 +163,9 @@ button {
   width: 300px;
   padding: 0.5rem 0;
 }
+
+footer {
+  text-align: center;
+  height: 100px;
+  padding-top: 50px;
+}
